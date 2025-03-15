@@ -1,3 +1,26 @@
 * {
     box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.header-container {
+    background-color: #120323;
+}
+
+.header-container h1 {
+    color: #97bf04;
+}
+
+nav, footer {
+    background-color: #d9043d;
+}
+
+body {
+    background-color: #cccccc;
+}
+
+main img {
+    border-bottom: 10px solid #97bf04;
+}
+
+
