@@ -2,4 +2,49 @@
     box-sizing: border-box;
 }
 
- 
+/* BASIC Page Styling */
+
+ body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    background-color:#cccccc;
+ }
+
+ header {
+    display: flex;
+    flex-direction: column;
+    background-color: #120323;
+    align-items: center;
+ }
+
+ header h1 {
+    color: #97bf04;
+    font-size: 175%;
+    text-align: center;
+ }
+
+ header img {
+    max-width: 150px;
+ }
+
+ nav {
+    width: 95%;
+ }
+
+ nav ul li {
+    background-color: #d9043d;
+    padding: 1em;
+ }
+
+ h2 {
+    text-align: center;
+    padding: 1em;
+ }
+
+ footer {
+    background-color: #d9043d;
+    color: white;
+    padding: 2em;
+ }
