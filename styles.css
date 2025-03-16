@@ -3,7 +3,7 @@
 }
 
 /* For devices less than 768 px wide */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) { */
     body, header {
         margin: 0 auto;
         padding: 0;
@@ -92,5 +92,11 @@
 
     footer {
         background-color: #d9043d;
+        color: white;
+        padding: 2em;
     }
+/* }*/
+
+@media screen and (max-width: 999px) {
+    
 }
