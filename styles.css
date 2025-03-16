@@ -11,32 +11,41 @@
     align-items: center;
     padding: 15px;
     flex-direction: column;
+    width: 100%;
 }
 
 .header-container img {
-    width: 100%;
+    width: 150px;
     height: auto;
 }
 
 .header-container h1 {
     color: #97bf04;
+    position: relative;
     text-align: center;
     justify-content: center;
     align-items: center;
+    font-size: 150%;
 }
 
 nav {
-    width: 95%;
+    display: flex;
+    width: 95%;;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid white;
+
 }
 
 nav li {
     display: flex;
     justify-content: space-around;
-    align-items: center;
     border: 1px solid #97bf04;
     background-color:#d9043d;
     padding: 10px;
-    margin: 15px;
+    margin: 0 15px;
+
 }
 
 nav a {
