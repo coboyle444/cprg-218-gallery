@@ -2,8 +2,6 @@
     box-sizing: border-box;
 }
 
-/* For devices less than 768 px wide */
-/* @media screen and (max-width: 768px) { */
     body, header {
         margin: 0 auto;
         padding: 0;
@@ -39,22 +37,7 @@
 
     h2 {
         text-align: center;
-        padding: 10px;
-    }
-
-    figure img {
-        max-width: 100%;
-        height: auto;
-        border-bottom: 10px solid #97bf04;
-        align-items: center;
-    }
-
-    #gallery-container figure {
-        display: grid;
-        background-color: white;
         padding: 1em;
-        margin: 5%;
-        justify-content: center;
     }
 
     footer {
@@ -63,6 +46,8 @@
         padding: 2em;
     }
 
+
+/* For devices less than 768 px wide */
     @media screen and (max-width: 768px) {
     nav {
         margin: 0 auto;
@@ -102,11 +87,29 @@
         max-width: 100%;
         margin: 0 auto;
     }
+    figure img {
+        max-width: 100%;
+        height: auto;
+        border-bottom: 10px solid #97bf04;
+        align-items: center;
+    }
+
+    #gallery-container figure {
+        display: grid;
+        background-color: white;
+        padding: 1em;
+        margin: 5%;
+        justify-content: center;
+    }
 }
-/* }*/
+
 
 /* For devices less than 1000px wide */
 @media screen and (min-width: 769px) {
+    #header-container {
+        display: flex;
+        width: 100%;
+    }
     nav {
         display: flex;
         flex-direction: row;
@@ -114,11 +117,50 @@
         border-style: none;
         width: 100%;
         margin: 0 auto;
+        justify-content: space-around;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        padding: 1em;
+        margin: 0;
+        list-style: none;
     }
     nav li {
         border: 1px solid #d9043d;
-        display: flex;
-        flex-direction: row;
+        margin: 0 15px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: white;
+    }
+
+    #gallery-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2em;
+        padding: 1em;
+        justify-items: center;
+    }
+
+    figure img {
+        max-width: 650px;
+        height: auto;
+        object-fit: contain;
+        border-bottom: 15px solid #97bf04;
+    }
+
+    figure {
+        border: 2em solid white;
+        background-color: white;
+    }
+
+    figure:last-child {
+        grid-column: span 2;
+        align-self: center;
+        justify-self: center;
     }
 }
 
