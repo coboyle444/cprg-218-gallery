@@ -22,15 +22,23 @@
     color: #97bf04;
 }
 
+nav {
+    width: 95%;
+}
+
 nav li {
     display: flex;
-    width: 95%;
     justify-content: space-around;
     align-items: center;
     border: 1px solid #97bf04;
     background-color:#d9043d;
-    padding: 5px;
-    margin: 10px;
+    padding: 10px;
+    margin: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
 }
 
 body {
