@@ -67,6 +67,7 @@ main h2 {
 
  main img {
     width: 100%;
+    max-width: 650px;
     border-bottom: 10px solid #97bf04;
  }
 
@@ -101,12 +102,22 @@ main h2 {
        padding-top: 0;
     }
 
+    main h2 {
+        padding: 0.5em;
+        font-size: 175%;
+    }
+
     #gallery-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
 
     #gallery-container figure:last-child {
-        grid-column: span 2;     
+        grid-column: span 2;    
+        place-items: center;
+    }
+
+    footer {
+        margin-top: 1em;
     }
  }
