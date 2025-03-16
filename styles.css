@@ -9,6 +9,7 @@
     background-color: #120323;
     display: flex;
     align-items: center;
+    padding: 15px;
     flex-direction: column;
 }
 
