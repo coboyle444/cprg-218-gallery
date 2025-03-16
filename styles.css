@@ -40,9 +40,6 @@ nav ul {
     padding: 0;
 }
 nav li {
-    display: flex;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
     margin-top: 1em;
     padding: 1em;
     justify-content: center;
@@ -50,7 +47,6 @@ nav li {
     text-align: center;
     border: 2px solid #97bf04;
     background-color:#d9043d;
-    width: 100%;
 }
 
 nav li a {
@@ -59,13 +55,19 @@ nav li a {
     color: white;
 }
 
- h2 {
+main h2 {
     text-align: center;
     padding: 1em;
  }
 
+ main figure {
+    background-color: white;
+    padding: 1.5em;
+ }
+
  main img {
     width: 100%;
+    border-bottom: 10px solid #97bf04;
  }
 
  footer {
