@@ -14,7 +14,12 @@
         align-items: center;
         display: flex;
         flex-direction: column;
-        padding: 1em;
+    }
+    
+    .header-container {
+        margin: 0 auto;
+        padding-bottom: 1em;
+        padding-top: 1em;
     }
 
     header h1 {
