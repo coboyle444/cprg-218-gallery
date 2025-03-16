@@ -100,4 +100,13 @@ main h2 {
        border-style: none;
        padding-top: 0;
     }
+
+    #gallery-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #gallery-container figure:last-child {
+        grid-column: span 2;     
+    }
  }
