@@ -70,7 +70,10 @@
     }
 
     main {
+        display: grid;
         grid-template-columns: 1;
+        max-width: 100%;
+        margin: 0 auto;
     }
 
     h2 {
@@ -85,9 +88,12 @@
         align-items: center;
     }
 
-    figure {
+    #gallery-container figure {
+        display: grid;
         background-color: white;
         padding: 1em;
+        margin: 5%;
+        justify-content: center;
     }
 
     footer {
@@ -97,6 +103,18 @@
     }
 /* }*/
 
-@media screen and (max-width: 999px) {
-    
+/* For devices less than 1000px wide */
+@media screen and (min-width: 769px) {
+    nav {
+        display: flex;
+        background-color: #d9043d;
+        border-style: none;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+/* For devices greater than 1000px wide */
+@media screen and (min-width: 1000px) {
+
 }
