@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-/* BASIC Page Styling */
+/* BASIC Page Styling for devices 768 px wide or less */
 
  body {
     margin: 0 auto;
@@ -114,6 +114,23 @@ main h2 {
 
     #gallery-container figure:last-child {
         grid-column: span 2;    
+        place-items: center;
+    }
+
+    footer {
+        margin-top: 1em;
+    }
+ }
+
+ /* For devices greater than 1000px wide */
+ @media screen and (min-width:1000px) {
+    #gallery-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #gallery-container figure:last-child {
+        grid-column: span 2;
         place-items: center;
     }
 
