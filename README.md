@@ -5,4 +5,4 @@
 
 - Colours, images, and content accessed from the D2L Assignment Requirements, provided by Dan Stephenson.
 
-- Code debug resources provided by "W3Schools.com," CSS Grid LAyout Module, https://www.w3schools.com/css/css_grid.asp (accessed Mar. 15, 2025).
+- Code debug resources provided by "W3Schools.com," CSS Grid Layout Module, https://www.w3schools.com/css/css_grid.asp (accessed Mar. 15, 2025).
