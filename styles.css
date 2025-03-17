@@ -47,6 +47,7 @@ nav li {
     text-align: center;
     border: 2px solid #97bf04;
     background-color:#d9043d;
+    list-style: none;
 }
 
 nav li a {
